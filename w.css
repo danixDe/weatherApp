@@ -1,0 +1,115 @@
+body{
+    background-color:hsl(0,0%,95%);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
+    padding-bottom: 1000px;
+}
+.weatherForm{
+    margin:20px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    
+
+}
+.cityInput{
+    padding:10px;
+    font-size:2rem;
+    border: 1px solid;
+    border-color:hsla(0, 0%, 28%,0.293);
+    height:50px;
+    max-width:1000px;
+}
+.button{
+    height:60px;
+    padding:10px 20px;
+    background-color:hsl(43, 96%, 52%);
+    color:hsl(0, 0%, 0%);
+    margin-left:20px;
+    transition:background-color 0.15s, opacity 0.15s;
+    border:none;
+    border-radius:20px;
+    font-family:monospace;
+}
+.button:hover{
+    background-color:hsl(210, 100%, 76%);  
+    cursor:pointer; 
+}
+.button:active{
+    opacity:0.8;
+}
+.cityInput:placeholder-shown{
+    opacity:0.6; 
+}
+.total{
+     display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin:0;
+}
+.card{
+    background: linear-gradient(180deg,hsl(210, 100%, 75%),hsl(40, 100%, 50%));
+    padding:50px;
+    box-shadow:2px 2px 5px hsla(0,0%,0%,0.512);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+h1{
+    font-size:3.5rem;
+    margin-top:0;
+    margin-bottom:25px;
+
+}
+p{
+    font-size:1.5rem;
+    margin:5px 0;
+}
+.cityDisp,.tempDisp{
+    font-size:3.5rem;
+    font-weight:bold;
+    color:hsla(0,0%,0%,0.75);
+    margin-bottom:25px;
+}
+.humidDisp{
+    font-weight:bold;
+    color:hsla(0,0%,0%,0.88);
+    margin-top:none;
+    margin-bottom:25px;
+}
+.descDisp{
+    font-style:italic;
+    font-weight: bold;
+    font-size:2rem;
+}
+.weatherEmoji{
+    margin:0;
+    font-size:7.5rem;
+}
+.errorDisp{
+    font-weight:bold;
+    font-size:2.5rem;
+    color:hsla(0,0%,0%,0.75);
+
+}
+@media(max-width:550px) {
+    body{
+        font-size:70%;
+
+    }
+    .weatherForm{
+        flex-direction: column;
+    }
+    .button{
+        margin-top: 10px;
+    }
+    .cityDisp,.tempDisp{
+        font-size:2.5rem;
+    }
+    .weatherEmoji{
+        font-size:6rem;
+    }
+    .errorDisp{
+        font-size:1.5rem;
+    }
+    
+}
