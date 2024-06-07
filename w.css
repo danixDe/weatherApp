@@ -2,6 +2,7 @@ body{
     background-color:hsl(0,0%,95%);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
     padding-bottom: 1000px;
+    opacity:0.1;
 }
 .weatherForm{
     margin:20px;
