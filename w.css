@@ -127,10 +127,22 @@ p{
 #title{
     margin-top:20px;
     padding:20px;
+    padding-bottom:5px;
     color:white;
     background: linear-gradient(180deg,hsl(9, 87%, 50%),hsl(192, 86%, 44%));
     -webkit-background-clip: text;
     color:transparent;
     display:inline-block;
     white-space: nowrap;
+}
+.creator{
+    font-size:1rem;
+    color:cadetblue;
+    cursor:pointer;
+    margin-bottom:15px;
+    transition: transform 0.15s ease-in-out;
+}
+.creator:hover{
+    transform:rotateX(180deg);
+
 }
