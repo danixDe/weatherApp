@@ -89,7 +89,7 @@ p{
     color:hsla(0,0%,0%,0.75);
 
 }
-@media(max-width:650px) {
+@media(max-width:550px) {
     body{
         font-size:70%;
     }
@@ -110,6 +110,7 @@ p{
     }
     .cityInput{
         width:300px;
+        background-color: black;
     }
 
     .weatherForm{
