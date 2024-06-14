@@ -8,8 +8,6 @@ body{
     display:flex;
     align-items:center;
     justify-content: center;
-    
-
 }
 .cityInput{
     padding:10px;
@@ -94,7 +92,6 @@ p{
 @media(max-width:550px) {
     body{
         font-size:70%;
-
     }
     .weatherForm{
         flex-direction: column;
@@ -111,5 +108,11 @@ p{
     .errorDisp{
         font-size:1.5rem;
     }
-    
+    .cityInput{
+        width:300px;
+    }
+
+    .weatherForm{
+        width:350px;
+    }
 }
