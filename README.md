@@ -10,4 +10,6 @@
  It uses the api through its api key and collects the desired information and outputs it through.
  
  The website is also responsive enough for the smaller screens.
+
+ site deployed here: https://weathernow247.netlify.app/
  
