@@ -2,7 +2,12 @@ body{
     background-color:hsl(0,0%,95%);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
     padding-bottom: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .weatherForm{
     margin:20px;
     display:flex;
@@ -91,7 +96,7 @@ p{
 }
 @media(max-width:800px) {
     body{
-        font-size:70%;
+        font-size:60%;
     }
     .weatherForm{
         flex-direction: column;
@@ -115,4 +120,13 @@ p{
     .weatherForm{
         width:200px;
     }
+}
+#title{
+    margin-top:20px;
+    padding:20px;
+    color:white;
+    background: linear-gradient(180deg,hsl(9, 87%, 50%),hsl(192, 86%, 44%));
+    -webkit-background-clip: text;
+    color:transparent;
+    display:inline-block;
 }
