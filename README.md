@@ -1,5 +1,6 @@
 # weatherApp
- This project collects information from a free api service and provide weather information for the inputted city.
+ This project collects information from a free api openweathermap.org
+and provide weather information for the inputted city.
  
  It takes a city as an input and prints information like city name,its temparature, Humidity and the corresponding weather emoji.
  
